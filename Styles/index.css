@@ -10,6 +10,31 @@ img {
     object-fit: contain;
 }
 
+.rounded-profile {
+  border-radius: 50%;
+}
+
+.centered-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.centered-section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-content {
+  text-align: center;
+}
+
 nav {
     display: block;
+}
+
+h1, h2, h3, h4, h5, p, a {
+  font-family: sans-serif;
 }
