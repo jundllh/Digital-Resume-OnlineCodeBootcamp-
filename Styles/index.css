@@ -4,6 +4,11 @@ img {
     object-fit: cover;
 }
 
+.email-icon {
+  width: 145px;
+  height: 145px;
+}
+
 .image-contain {
     width: 300px;
     height: 200px;
