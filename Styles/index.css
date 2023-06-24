@@ -1,12 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
 img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
 .email-icon {
   width: 145px;
   height: 145px;
+  padding: 23px;
 }
 
 .image-contain {
@@ -19,27 +24,83 @@ img {
   border-radius: 50%;
 }
 
-.centered-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-}
-
-.centered-section-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.centered-content {
-  text-align: center;
-}
-
 nav {
     display: block;
 }
 
-h1, h2, h3, h4, h5, p, a {
+h1, h2, h3, h4, h5, p, a, li{
   font-family: sans-serif;
+  text-decoration: none;
+}
+
+.text-color {
+  color: burlywood;
+}
+
+.font-space {
+  margin: 10px;
+}
+
+.align-1 {
+  text-align: justify;
+}
+
+div {
+  text-align: center;
+}
+
+.dimension {
+  box-sizing: border-box;
+  padding: 74px;
+  border: 0px;
+  margin: 20px;
+}
+
+.text-align {
+  text-align: justify
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-weight: bold;
+  position: relative;
+  background: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s
+}
+
+button:hover {
+  background-color: 	#214778;
+  border-radius: 5px;
+}
+
+.button-align {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* FLEX TRAINING SECTION */
+.container {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  flex-grow: 1;
+}
+
+#red {
+  background-image: url(../Images/IMG_0064.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#yellow {
+  background-color: #FFFF;
 }
