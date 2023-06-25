@@ -28,6 +28,10 @@ nav {
     display: block;
 }
 
+.sizing {
+  margin: 10px;
+}
+
 h1, h2, h3, h4, h5, p, a, li{
   font-family: sans-serif;
   text-decoration: none;
@@ -35,6 +39,10 @@ h1, h2, h3, h4, h5, p, a, li{
 
 .text-color {
   color: burlywood;
+}
+
+.text-color-2 {
+  color: grey;
 }
 
 .font-space {
@@ -58,6 +66,12 @@ div {
 
 .text-align {
   text-align: justify
+}
+
+.item-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 html, body {
@@ -85,13 +99,31 @@ button:hover {
   justify-content: space-between;
 }
 
+
+header {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* FLEX TRAINING SECTION */
 .container {
   display: flex;
 }
 
+.container-2 {
+  display: flex;
+  flex-direction: column;
+}
+
 .box {
   width: 100px;
+  flex-grow: 1;
+}
+
+.box-2{
+  height: 200px;
   flex-grow: 1;
 }
 
@@ -103,4 +135,21 @@ button:hover {
 
 #yellow {
   background-color: #FFFF;
+}
+
+#purple {
+  background-image: url(../Images/Canon\ .png);
+  background-size: contain;
+}
+
+#green {
+  background-color: white;
+}
+
+#black {
+  background-image: url(../Images/Hive.jpeg);
+}
+
+#white {
+  background-image: url(../Images/BBST.jpeg);
 }
